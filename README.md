@@ -33,6 +33,11 @@ Somos Cesar Robledo, Andres Chilkiewicz y Celeste Trujillo realizando nuestro pr
 - El diseño busca generar coherencia mediante el uso de colores y unificación de tipografías. Las imágenes son svg o jpg para optimizar la web.
 - Se incluyen títulos de archivos con SEO y alt text.
 
+<h2>⚙️ BackEnd</h2>
+
+- Se realiza implementación de django views.
+- Se levantan los archivos estáticos para la parte funcional y estética del proyecto.
+
 ## Skills
 - 🌐 Html,
 - 🎨 Css, 
@@ -41,6 +46,7 @@ Somos Cesar Robledo, Andres Chilkiewicz y Celeste Trujillo realizando nuestro pr
 - 📦 Boostrap
 - 🖼️ Iframe
 - 🅰️ Google Fonts
+- 👨‍💻 Django 
 
 ## Contact
 - 👦 [@Andreschkw](https://github.com/Andreschkw)
