@@ -1,0 +1,55 @@
+:root {
+  --theme-color: white;
+  --primary-color: #FFE5CF;
+  --secundary-color: #FC7700;
+  --text-color-inverse: #FC7700;
+  --menu-mobile-text-color: white;
+  --text-color: #666666;
+  --navbar-shallow-color: rgb(206 206 206);
+  --menu-mobile-background-color: #666666;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 100px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--theme-color);
+  color: var(--text-color);
+
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.white-background {
+  background-color: var(--theme-color);
+  padding-top: 20px;
+  border-radius: 40px; 
+  box-shadow: --navbar-shallow-color; 
+  padding-bottom: 20px;
+  margin-top: 30px; 
+  margin-bottom: 20px; 
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.skills-list {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-right: 20px; /* Ajusta el valor según el espaciado deseado en el lado derecho */
+}

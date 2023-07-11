@@ -1,0 +1,148 @@
+.experiences {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.experiences-grid {
+  position: relative;
+  top: 40px;
+}
+
+.experiences-body {
+  padding: 0.5em 0.7em;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.wave {
+  width: 100%;
+  position: relative;
+  top: 40px;
+}
+
+.wave_bottom {
+  transform: scaleY(-1);
+  top: -6px;
+}
+
+.experiences-title {
+  
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  top: 5px;
+  margin: 15px;
+}
+
+.experience-date {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: var(---text-color);
+}
+
+.experience-company {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.experience-position {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.experience-description {
+  padding: 0;
+  list-style: none;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.experience {
+  padding: 25px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media (min-width: 950px) {
+  .experiences-title {
+    position: relative;
+    font-size: 30px;
+    margin: 15px 0;
+    top: 10px;
+  }
+
+  .experience-date {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+  }
+
+  .experience-company {
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .experience-position {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .experience-description {
+    list-style: none;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 1.7;
+  }
+
+  .experience {
+    padding: 0;
+  }
+
+  .experience_left {
+    text-align: right;
+  }
+
+  .experiences-grid {
+    display: grid;
+    grid-template-columns: auto 2px auto;
+    gap: 20px 70px;
+    padding: 70px;
+    justify-content: center;
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  .line {
+    background-color: var(--text-color-inverse);
+    position: relative;
+  }
+
+  .line::before,
+  .line::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: var(--text-color-inverse);
+    border-radius: 50%;
+
+    position: absolute;
+    top: -20px;
+    left: -9px;
+  }
+
+  .line::after {
+    top: 100%;
+    z-index: 1;
+  }
+
+  
+}
