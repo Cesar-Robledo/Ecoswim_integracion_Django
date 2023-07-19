@@ -11,9 +11,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-3-ngkksd94p*8dpv$j1lj!tfgk9jzsy^!9u^qa)$a$k=2f(5yy"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# CAMBIOS 14/07 DEBUG DE TRUE A FALSE
+DEBUG = False
 
-ALLOWED_HOSTS = []
+# CAMBIOS 14/07 AGREGO LA CARPETA DE PYTHONANYWHERE
+ALLOWED_HOSTS = ["andreschkw.pythonanywhere.com"]
 
 
 # Application definition
@@ -103,10 +105,16 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+#cambios 14/07
+#comento
 STATIC_URL = "static/"
-STATICFILES_DIRS = [
-    BASE_DIR /"static"
-]
+#STATICFILES_DIRS = [
+#    BASE_DIR /"static"
+#]
+
+#agrego
+STATIC_ROOT = BASE_DIR /"static"
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
